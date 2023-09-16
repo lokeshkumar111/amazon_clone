@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Login from './components/loginPage/Login';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-     this is the amazon clone
-    </div>
+    <Login/>
+    // <Router>
+    //   <Switch>
+    //     <Route path="/login" component={Login} />
+        
+    //   </Switch>
+    // </Router>
   );
-}
+};
 
 export default App;

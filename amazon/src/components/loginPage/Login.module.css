@@ -1,0 +1,108 @@
+.mainDiv{
+    text-align: center;
+    width:25%;
+    margin: auto;
+}
+.mainDiv>div:first-child{
+    width:35%;
+    margin:10px auto;
+
+}
+.mainDiv>div:first-child>img{
+    width:100%;
+    object-fit: cover;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.096) 0px 6px 24px 0px, rgba(0, 0, 0, 0.096) 0px 0px 0px 1px;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 5px 5px 5px 20px;
+
+}
+.loginForm>form{
+    margin-top: -15px;
+}
+.loginForm>form>lable{
+    font-weight: 600;
+}
+.loginForm>form>input{
+    margin-top: 10px;
+    width:90%;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    font-size: medium;
+    padding-left: 7px;
+}
+.loginForm>form>input:active{
+    border: 2px solid green;
+}
+.loginForm>form>button{
+    width:93%;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    letter-spacing: 0.5px;
+    padding:5px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 217, 0);
+    margin-top: -5px;
+}
+.loginForm>form>button:hover{
+    background-color: rgb(255, 187, 0);
+}
+.loginForm>p{
+    margin-right: 10px;
+    font-size:small;
+}
+.loginForm>h5{
+    margin-top: 5px;
+}
+.loginForm>p:last-child{
+    margin-top: -12px;
+    color:blue;
+    margin-bottom: 15px;
+}
+.loginForm>p:last-child:hover{
+    color:crimson;
+    text-decoration: underline;
+}
+.createDiv{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.createDiv>div{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 45px;
+ margin-bottom: 10px;
+}
+.createDiv>div>hr{
+    width: 34%;
+    margin-top: -10px;
+
+}
+.createDiv>div>p{
+    font-size: small;
+    color:grey;
+    margin-bottom: 10px;
+    margin-top: -12px;
+}
+.createDiv>button{
+    width:100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    letter-spacing: 0.5px;
+    padding:5px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+}
