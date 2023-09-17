@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react';
+// import Login from './components/loginPage/Login';
+import CreateAccount from './components/CreatAccount/CreateAccount';
+const App = () => {
   return (
-    <div className="App">
-     this is the amazon clone
-    </div>
+    // <Login/>
+   <CreateAccount/>
   );
-}
+};
 
 export default App;
