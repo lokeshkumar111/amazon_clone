@@ -34,7 +34,7 @@ const CreateAccount = () => {
             <input className="inputData" placeholder='At least 6 characters'/>
             <br/>
             <br/>
-            <Link to='home'><button>Continue</button></Link>
+            <Link to='/'><button>Continue</button></Link>
         </form>
         <p style={{'color':'blue'}}>Need help?</p>
         <hr style={{'color':'grey' , 'width': '93%', 'margin-left': '-2px'}}/>

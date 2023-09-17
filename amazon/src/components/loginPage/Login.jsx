@@ -19,7 +19,7 @@ const Login = () => {
           <input className="inputData" placeholder=''/>
           <br/>
           <br/>
-          <Link to='/home'><button>Continue</button></Link>
+          <Link to='/'><button>Continue</button></Link>
         </form>
         <p>By Continuing, You agree to Amazon's <span style={{'color':'blue'}}>Condition of Use</span> and <span style={{'color':'blue'}}>Privacy Policy</span></p>
         <p style={{'color':'blue'}}>Need help?</p>
