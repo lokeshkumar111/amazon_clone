@@ -1,10 +1,8 @@
 import React from 'react';
-// import Login from './components/loginPage/Login';
-import CreateAccount from './components/CreatAccount/CreateAccount';
+import AllRoutes from './components/Routes/AllRoutes';
 const App = () => {
   return (
-    // <Login/>
-   <CreateAccount/>
+    <AllRoutes/>
   );
 };
 

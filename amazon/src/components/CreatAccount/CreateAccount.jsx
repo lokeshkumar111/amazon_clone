@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './CreateAccount.module.css';
 import logo from '../images/amazonLogo.png';
+import { Link } from 'react-router-dom';
 const CreateAccount = () => {
  
     const saveSubmitData=(e)=>{
@@ -33,13 +34,13 @@ const CreateAccount = () => {
             <input className="inputData" placeholder='At least 6 characters'/>
             <br/>
             <br/>
-            <button>Continue</button>
+            <Link to='home'><button>Continue</button></Link>
         </form>
         <p style={{'color':'blue'}}>Need help?</p>
         <hr style={{'color':'grey' , 'width': '93%', 'margin-left': '-2px'}}/>
         <h5>Buying for Work?</h5>
         <p style={{'color':'blue', 'marginBottom':'25px'}}>Shop on Amazon Business</p>
-        <p style={{'color':'black'}}>Already have an account?<span style={{'color':'blue'}}>signin</span></p>
+        <p style={{'color':'black'}}>Already have an account?<span style={{'color':'blue'}}><Link to='login'>signin</Link></span></p>
         </div>
     </div>
     )

@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../images/amazonLogo.png';
 import styles from './Login.module.css';
+import { Link } from 'react-router-dom';
 const Login = () => {
 
   const saveSubmitData=(e)=>{
@@ -18,7 +19,7 @@ const Login = () => {
           <input className="inputData" placeholder=''/>
           <br/>
           <br/>
-          <button>Continue</button>
+          <Link to='/home'><button>Continue</button></Link>
         </form>
         <p>By Continuing, You agree to Amazon's <span style={{'color':'blue'}}>Condition of Use</span> and <span style={{'color':'blue'}}>Privacy Policy</span></p>
         <p style={{'color':'blue'}}>Need help?</p>
@@ -32,7 +33,7 @@ const Login = () => {
           <p>New to Amazon?</p>
           <hr/>
         </div>
-        <button>Create your Amazon account</button>
+        <Link to='/signup'><button>Create your Amazon account</button></Link>
       </div>
     </div>
   )
