@@ -38,12 +38,10 @@ const CreateAccount = () => {
         <p style={{'color':'blue'}}>Need help?</p>
         <hr style={{'color':'grey' , 'width': '93%', 'margin-left': '-2px'}}/>
         <h5>Buying for Work?</h5>
-        <p>Shop on Amazon Business</p>
+        <p style={{'color':'blue', 'marginBottom':'25px'}}>Shop on Amazon Business</p>
         <p style={{'color':'black'}}>Already have an account?<span style={{'color':'blue'}}>signin</span></p>
         </div>
     </div>
     )
 }
 export default CreateAccount
-
-
