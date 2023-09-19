@@ -1,0 +1,14 @@
+.mainNav{
+    background-color: rgb(206, 199, 199);
+    width:100%;
+}
+.logo{
+    padding-right: 35%;
+}
+.navButton{
+    gap:40px;
+}
+.searchBar{
+    padding-left: 100px;
+    gap:5px;
+}
