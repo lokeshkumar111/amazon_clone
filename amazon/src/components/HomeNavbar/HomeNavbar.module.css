@@ -1,14 +1,56 @@
+
 .mainNav{
-    background-color: rgb(206, 199, 199);
+    background-color: #131921;
     width:100%;
+    color:white;
+    font-size: large;
+    padding:5px;
+}
+a{
+    color:white;
 }
 .logo{
-    padding-right: 35%;
+    margin:0px;
+}
+.logo:hover{
+    border: 1px solid white;
+    text-decoration: none;
+    color:white;
+    padding:5px;
 }
 .navButton{
-    gap:40px;
+    gap:20px;
+}
+.navButton>a:hover{
+    border: 1px solid white;
+    text-decoration: none;
+    color:white;
+    padding:5px;
 }
 .searchBar{
-    padding-left: 100px;
-    gap:5px;
+    width: 70%;
+    margin-right: 100px;
+    margin-left: 150px;
+    border-radius: 5px 0px 0px 5px;
+}
+.searchBar>input{
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+.searchBar>button{
+    width: 60px;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background: #febd69;
+}
+.searchBar>button:hover{
+    background-color: #f79b22;
+}
+.navButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:40px;
+    padding-right: 20px;
 }
